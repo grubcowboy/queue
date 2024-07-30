@@ -1,0 +1,11 @@
+{
+  "name": "queue",
+  "module": "queue.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
