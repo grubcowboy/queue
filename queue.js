@@ -18,4 +18,8 @@ export class Queue {
         // Remove and return head value
         return this.items[0];
     }
+
+    len() {
+        return this.items.length;
+    }
 }

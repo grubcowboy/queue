@@ -29,5 +29,6 @@ test("pop from multiple item queue", () => {
     qt.push(1);
     qt.push(2);
 
+    expect(qt.len()).toBe(2);
     expect(qt.pop()).toBe(1);
 });
