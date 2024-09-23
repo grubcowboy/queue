@@ -15,11 +15,12 @@ export class Queue {
     }
 
     peek() {
-        // Remove and return head value
+        // Return head value
         return this.items[0];
     }
 
     len() {
+        // Length of queue
         return this.items.length;
     }
 }
